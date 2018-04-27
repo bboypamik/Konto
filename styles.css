@@ -25,7 +25,9 @@ header {
 	justify-content: space-between;
 	border-bottom: 2px solid white;
 	margin-left: 10px;
+	background-color: #e6e6e6;
 }
+
 nav{
 	align-self: center;
 }
@@ -218,9 +220,7 @@ color: white;
 	text-align: center;
 }
 
-.container {
-	background-color: #e6e6e6;
-}
+
 
 
 .galerija h2{
@@ -233,6 +233,37 @@ color: white;
 
 .usluge h2 {
 	text-align: center;
+}
+
+.row-usluge{
+	display: flex;
+	justify-content: space-between;
+	
+	
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.stavke-usluga {
+	display: flex;
+	width: 49%;
+	border-radius: 5px;
+
+background-color: #e6e6e6;
+
+	
+}
+.stavke-usluga div{
+	margin: 20px;
+
+	
+}
+.stavke-usluga h4{
+	margin-top:0px;
+}
+
+.stavke-usluga i{
+font-size: 3rem;
 }
 
 
