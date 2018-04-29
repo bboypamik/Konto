@@ -1,272 +1,56 @@
 body{
-	font-family: 'Open Sans', sans-serif;
-}
-.container {
-	background-color: white;
-    width: 1200px;
-    margin: auto;
-    border-radius: 5px;
-
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+    padding:50px;
+    
 }
 
-#headerPic {
-	height: 80px;
-	
-	
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
 }
-h1,h2{
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	color: #003d66;
-
+#login-dp .help-block{
+    font-size:12px    
 }
-header {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 2px solid white;
-	margin-left: 10px;
-	background-color: #e6e6e6;
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
 }
-
-nav{
-	align-self: center;
+#login-dp .social-buttons{
+    margin:12px 0    
 }
-nav ul{
-	list-style: none;
+#login-dp .social-buttons a{
+    width: 49%;
 }
-nav ul li{
-	display: inline-block;
-	margin:10px 20px 10px 0;
-	
-
+#login-dp .form-group {
+    margin-bottom: 10px;
 }
-nav ul li a{
-	color: #003d66;
-	text-decoration: none;
-	font-size: 1.5rem;
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
 }
-nav ul li a:hover{
-	color:  #f2f2f2;
-
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
 }
-
-#usluge{
-	text-align: center;
-	display: flex;
-	width: 1200px;
-	margin: auto;
-	background-color: white;
-	border-radius: 5px;
-	padding: 40px 0px;
-	margin-bottom: 15px
-
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
 }
-#usluge i{
-   font-size: 3rem;
-
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
 }
-#usluge i:hover{
-	color: #737373;
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
 }
-#uslugeNaslov{
-	text-align: center;
-	font-size: 2rem;
-	margin-bottom: 20px;
-	color: black;
-}
-
-#main {
-	background-image: url(http://tacaccounting.com/wp-content/uploads/2017/06/services-accounting.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*padding: 220px;*/
-	height: 500px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	color: #666666 ;
-	border-radius: 5px;
-	margin-bottom: 5px;
-
-}
-#main .text{
-	align-self: center;
-}
-#main h1{
-font-size: 8rem;
-}
-
-footer {
-	
-	border-top: solid 1px #d9d9d9 ;
-	width: 1200px;
-	margin: auto;
-
-}
-
-footer p{
-	text-align: center;
-}
-
-
-#image {
-	font-size: 4rem;
-	margin-right: 5px;
-	color:  #002966;
-	
-}
-
-.glavni {
-	display: flex;
-
-}
-
-#about {
-	text-align: center;
-	font-size: 2rem;
-	margin-right: 10px;
-}
-
-.contact-form {
-	display: flex;
-	justify-content: space-between;
-}
-
-.container-adress {
-	display: flex;
-	color:  #8c8c8c;
-}
-
-.container-adress i{
-	margin-right: 20px;
-	font-size: 2rem;
-	
-}
-.container-adress i,
-.container-adress div, {
-	align-self: center;
-}
-
-.phone {
-	display: flex;
-	margin-top: 40px;
-	color:  #8c8c8c;
-}
-
-.phone i{
-	align-self: center;
-	margin-right: 20px;
-	font-size: 2rem;
-	
-}
-.phone div{
-	justify-content: flex-start;
-
-}
-
-.e-mail {
-	display: flex;
-	margin-top: 40px;
-	color:  #8c8c8c;
-
-}
-
-.e-mail i{
-	margin-right: 20px;
-	font-size: 2rem;
-	
-}
-
-.fax {
-	display: flex;
-	margin-top: 40px;
-	color:  #8c8c8c;
-
-}
-
-.fax i{
-	margin-right: 20px;
-	font-size: 2rem;
-	
-}
-
-.contact-form {
-	margin-bottom: 80px;
-	color: #8c8c8c;
-	padding-bottom: 10px;
-}
-
-.contact-form h2,h3,h4,h5 {
-	color: black;
-}
-
-.contact-form input {
-	width: 502px;
-	height: 30px;
-	
-	border-radius: 5px;
-}
-
-.contact-form textarea {
-	
-	margin-bottom: 15px
-}
-
-.contact-form input[type=submit] {
-background-color: #002966;
-color: white; 
-}
-.title-h2 {
-	text-align: center;
-}
-
-
-
-
-.galerija h2{
-	text-align: center;
-}
-
-.slike {
-	text-align: center;
-}
-
-.usluge h2 {
-	text-align: center;
-}
-
-.row-usluge{
-	display: flex;
-	justify-content: space-between;
-	
-	
-	margin-bottom: 20px;
-	border-radius: 5px;
-}
-
-.stavke-usluga {
-	display: flex;
-	width: 49%;
-	border-radius: 5px;
-
-background-color: #e6e6e6;
-
-	
-}
-.stavke-usluga div{
-	margin: 20px;
-
-	
-}
-.stavke-usluga h4{
-	margin-top:0px;
-}
-
-.stavke-usluga i{
-font-size: 3rem;
-}
-
-
-
-
-
